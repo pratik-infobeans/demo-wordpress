@@ -48,6 +48,6 @@ Go to the post which you have selected from Simple Alert option.
 
 ## Screenshots
 
-1. ![Alt text](/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 1.png?raw=true "Optional Title")
+1. ![Screenshot 1](/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 1.png)
 2. ![Alt text](demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 2.png?raw=true "Optional Title")
 3. ![Alt text](demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 3.png?raw=true "Optional Title")
