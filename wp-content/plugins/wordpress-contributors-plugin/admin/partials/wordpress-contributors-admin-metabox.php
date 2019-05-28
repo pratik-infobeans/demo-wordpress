@@ -19,9 +19,8 @@ wp_nonce_field( 'post_contributors_nonce', 'wc_meta_box_nonce' );
 foreach ( $authors as $author ) {
 ?>
 <div class="contributors-checkbox-container">
-	<input type="checkbox" id="contributor-checkbox" name="contributors_checkbox[]" value="<?php echo esc_attr( $author->ID ); ?>" <?php in_array( $author->ID, $pc_checkbox, true ) ? 'checked="checked"' : ''; ?> />
+	<input type="checkbox" id="contributor-checkbox" name="contributors_checkbox[]" value="<?php echo esc_attr( $author->ID ); ?>" <?php echo in_array( (string) $author->ID, $pc_checkbox, true ) ? 'checked="checked"' : ''; ?> />
 	<label for="contributors_checkbox"><?php echo esc_attr( $author->display_name ); ?></label>
 </div>
 <?php } ?>
 </p>
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->

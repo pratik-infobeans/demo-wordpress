@@ -71,16 +71,13 @@ class Wordpress_Contributors_Plugin_Admin {
 	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
-		/**
-		 * Hook to add css style.
-		 */
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wordpress-contributors-plugin-admin.js', array( 'jquery' ), $this->version, false );
+		// Enqueue admin side script.
 	}
 		/**
 		 * Function to add meta box to edit post page.
 		 */
 	public function add_contributors_meta_boxes() {
-		add_meta_box( 'contributors-meta-box', 'Contributors', [ $this, 'admin_contributors_form' ], 'post', 'normal', 'high' );
+		add_meta_box( 'contributors-meta-box', __( 'Contributors', 'wordpress-contributors-plugin' ), [ $this, 'admin_contributors_form' ], 'post', 'normal', 'high' );
 	}
 		/**
 		 * Function to display meta box content form.
@@ -91,8 +88,7 @@ class Wordpress_Contributors_Plugin_Admin {
 		global $post;
 				$authors     = [];
 				$pc_checkbox = [];
-		$values              = get_post_custom( $post->ID );
-		$pc_checkbox         = isset( $values['post_contributors_checkbox'] ) ? esc_attr( $values['post_contributors_checkbox'] ) : [];
+		$pc_checkbox         = get_post_meta( $post->ID, 'post_contributors_checkbox', true );
 		$args                = [
 			'orderby' => 'login',
 			'order'   => 'ASC',

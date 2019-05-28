@@ -14,14 +14,12 @@
  * @wordpress-plugin
  * Plugin Name:       Simple Alert Plugin
  * Plugin URI:        #
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This plugin will add a alert box to the Post/Page or any other custom post type's post page.It will add an option page under setting tab in admin area.
  * Version:           1.0.0
  * Author:            Pratik Raghuvanshi
  * Author URI:        #
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       simple-alert-plugin
- * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.
@@ -37,7 +35,8 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'SIMPLE_ALERT_PLUGIN_VERSION', '1.0.0' );
 
 /**
- * The code that runs during plugin activation.
+ * The below function will run during plugin activation.
+ * if any database level transaction needed during the activation will be written in it.
  * This action is documented in includes/class-simple-alert-plugin-activator.php
  */
 function activate_simple_alert_plugin() {
@@ -46,7 +45,8 @@ function activate_simple_alert_plugin() {
 }
 
 /**
- * The code that runs during plugin deactivation.
+ * The below function will run during plugin deactivation.
+ * if any database level transaction needed during the deactivation will be written in it.
  * This action is documented in includes/class-simple-alert-plugin-deactivator.php
  */
 function deactivate_simple_alert_plugin() {

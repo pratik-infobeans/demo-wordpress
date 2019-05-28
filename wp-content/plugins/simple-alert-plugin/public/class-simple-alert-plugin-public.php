@@ -58,7 +58,7 @@ class Simple_Alert_Plugin_Public {
 	 * @since    1.0.0
 	 */
 	public function enqueue_styles() {
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/simple-alert-plugin-public.css', array(), $this->version, 'all' );
+		// Enqueue public side styles here.
 	}
 
 	/**
@@ -67,12 +67,12 @@ class Simple_Alert_Plugin_Public {
 	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/simple-alert-plugin-public.js', array( 'jquery' ), $this->version, false );
+		// Enqueue public side javascript here.
 	}
 		/**
 		 * Function to check if post is selected for alert.
 		 *
-		 * @global objecy $post <post object>
+		 * @global object $post <post object>
 		 */
 	public function check_simple_alert() {
 		if ( is_single() || is_page() ) {

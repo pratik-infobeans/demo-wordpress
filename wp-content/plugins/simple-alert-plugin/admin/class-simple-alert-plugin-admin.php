@@ -57,7 +57,7 @@ class Simple_Alert_Plugin_Admin {
 	public function add_plugin_page() {
 		add_options_page(
 			'Settings Admin',
-			'Simple Alert Settings',
+			__( 'Simple Alert Settings', 'simple-alert-plugin' ),
 			'manage_options',
 			'alert-setting-admin',
 			array( $this, 'create_alert_setting_page' )

@@ -14,21 +14,17 @@
 ?>
 
 <div class="wrap simple-alert-config-container">
-<h1>
-<?php
-esc_html_e( 'Simple Alert Settings', 'simple-alert-text-domain' );
-?>
-</h1>
+<h1><?php esc_html_e( 'Simple Alert Settings', 'simple-alert-plugin' ); ?></h1>
 <form method="post" action="options.php" id="simple-alert-setting-form">
 	<?php settings_fields( 'simple-post-alert-group' ); ?>
 	<?php do_settings_sections( 'simple-post-alert-group' ); ?>
 	<table class="form-table">
 		<tr valign="top">
-		<th scope="row"><?php esc_html_e( 'Alert Box Text', 'simple-alert-text-domain' ); ?></th>
+		<th scope="row"><?php esc_html_e( 'Alert Box Text', 'simple-alert-plugin' ); ?></th>
 		<td><input type="text" name="simple_alert_text" value="<?php echo esc_attr( get_option( 'simple_alert_text' ) ); ?>" /></td>
 		</tr>
 		<tr valign="top">
-		<th scope="row">Post Type</th>
+		<th scope="row"><?php esc_html_e( 'Post Type', 'simple-alert-plugin' ); ?></th>
 		<td>
 			<div class="sa-post-type-container">
 				<?php
@@ -51,13 +47,13 @@ esc_html_e( 'Simple Alert Settings', 'simple-alert-text-domain' );
 					if ( ! empty( $posts_array ) ) {
 					?>
 					<select name="simple_alert_post_ids[<?php echo esc_attr( $post_type_str ); ?>][]" class="form-control" multiple='true' >
-						<option value="">Select Post</option>
+						<option value=""><?php esc_html_e( 'Select Post', 'simple-alert-plugin' ); ?></option>
 						<?php foreach ( $posts_array as $post_data ) { ?>
 							<option <?php echo in_array( (string) $post_data->ID, $sa_post_ids[ $post_type_str ], true ) ? 'selected="selected"' : ''; ?> value="<?php echo esc_attr( $post_data->ID ); ?>"><?php echo esc_attr( $post_data->post_title ); ?></option>
 						<?php } ?>
 					</select>
 					<?php } else { ?>
-						<span>No post available.</span>
+						<span><?php esc_html_e( 'No post available.', 'simple-alert-plugin' ); ?></span>
 					<?php } ?>
 				</div>
 				<?php } ?>

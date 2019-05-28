@@ -11,7 +11,7 @@
 
 ?>
 <div class="contributor-container">
-	<div class="contributor-box-title">Contributors</div>
+	<div class="contributor-box-title"><?php esc_html_e( 'Contributors', 'wordpress-contributors-plugin' ); ?></div>
 	<ul class="contributors-list-box">
 	<?php foreach ( $authors as $author ) { ?>
 		<li>

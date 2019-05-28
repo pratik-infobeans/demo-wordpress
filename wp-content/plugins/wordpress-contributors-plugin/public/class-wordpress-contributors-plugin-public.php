@@ -71,11 +71,9 @@ class Wordpress_Contributors_Plugin_Public {
 	 * @since    1.0.0
 	 */
 	public function enqueue_scripts() {
-			/**
-			 * Function to enqueue Java Script file.
-			 */
-			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wordpress-contributors-plugin-public.js', array( 'jquery' ), $this->version, false );
+		// Enqueue public side script.
 	}
+
 	/**
 	 * Function to display contributor box to post page.
 	 *
@@ -111,7 +109,7 @@ class Wordpress_Contributors_Plugin_Public {
 		$authors = [];
 		$authors = get_users( $args );
 		ob_start();
-		include_once plugin_dir_path( __FILE__ ) . 'partials/wordpress-contributors-contributors-box.php';
+		include_once plugin_dir_path( __FILE__ ) . 'partials/wordpress-contributors-post-box.php';
 		$return_str = ob_get_clean();
 		return $return_str;
 	}
