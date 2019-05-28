@@ -26,10 +26,10 @@ P.S: Use ctrl+click to select multiple posts from the dropdown.
 ## Demo
 You can see demo for the plugin functionality here:
 
-[Admin demo](wp-admin/options-general.php?page=alert-setting-admin)
+[Admin demo](http://172.16.19.68/pratik/demo-wordpress/wp-admin/options-general.php?page=alert-setting-admin)
 Please use admin/admin to login to admin area.
 
-[Frontend demo](http://)
+[Frontend demo](http://172.16.19.68/pratik/demo-wordpress)
 Go to the post which you have selected from Simple Alert option.
 
 ## Installation
@@ -48,6 +48,6 @@ Go to the post which you have selected from Simple Alert option.
 
 ## Screenshots
 
-1. ![Screenshot 1](/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 1.png)
-2. ![Alt text](demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 2.png?raw=true "Optional Title")
-3. ![Alt text](demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot 3.png?raw=true "Optional Title")
+1. ![Screenshot 1](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
+2. ![Alt text](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
+3. ![Alt text](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
