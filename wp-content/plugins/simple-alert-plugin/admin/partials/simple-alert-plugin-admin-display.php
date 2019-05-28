@@ -14,7 +14,7 @@
 ?>
 
 <div class="wrap simple-alert-config-container">
-<h1>Simple Alert Settings</h1>
+<h1><?php __e( 'Simple Alert Settings', $this->plugin_name ); ?></h1>
 
 <form method="post" action="options.php" id="simple-alert-setting-form">
 	<?php settings_fields( 'simple-post-alert-group' ); ?>
@@ -66,6 +66,3 @@
 
 </form>
 </div>
-<script>
-
-</script>
