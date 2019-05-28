@@ -25,10 +25,11 @@ Simple alert plugin allows you to add a simple alert with customized message on 
 P.S: Use ctrl+click to select multiple posts from the dropdown.
 ## Demo
 You can see demo for the plugin functionality here:
-[Admin area](wp-admin/options-general.php?page=alert-setting-admin)
+
+[Admin demo](wp-admin/options-general.php?page=alert-setting-admin)
 Please use admin/admin to login to admin area.
 
-[Frontend](http://)
+[Frontend demo](http://)
 Go to the post which you have selected from Simple Alert option.
 
 ## Installation
