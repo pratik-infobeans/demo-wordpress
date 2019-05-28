@@ -14,14 +14,17 @@
 ?>
 
 <div class="wrap simple-alert-config-container">
-<h1><?php __e( 'Simple Alert Settings', $this->plugin_name ); ?></h1>
-
+<h1>
+<?php
+esc_html_e( 'Simple Alert Settings', 'simple-alert-text-domain' );
+?>
+</h1>
 <form method="post" action="options.php" id="simple-alert-setting-form">
 	<?php settings_fields( 'simple-post-alert-group' ); ?>
 	<?php do_settings_sections( 'simple-post-alert-group' ); ?>
 	<table class="form-table">
 		<tr valign="top">
-		<th scope="row">Alert Box Text</th>
+		<th scope="row"><?php esc_html_e( 'Alert Box Text', 'simple-alert-text-domain' ); ?></th>
 		<td><input type="text" name="simple_alert_text" value="<?php echo esc_attr( get_option( 'simple_alert_text' ) ); ?>" /></td>
 		</tr>
 		<tr valign="top">
