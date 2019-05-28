@@ -1,0 +1,10 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .contributors-checkbox-container {
+     width: 33%;
+     display: inline-block;
+     padding-bottom: 1%;
+ }

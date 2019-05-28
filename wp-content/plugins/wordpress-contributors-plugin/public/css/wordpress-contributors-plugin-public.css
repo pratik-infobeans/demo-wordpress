@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .contributor-container {
+     width: 100%;
+     border: 2px solid #57575775;
+     padding: 2%;
+ }
+ .contributor-box-title {
+     font-weight: 600;
+     font-size: 22px;
+     border-bottom: 1px solid #9e9e9e;
+ }
+ .contributors-list-box li{
+    list-style-type : none;
+    padding-bottom: 1%;
+    width: 100%;
+    display: inline-flex;
+ }
+ .contributor-link img {
+     float: left;
+ }
+ .contributor-link span{
+    padding-left: 5px;
+ }
