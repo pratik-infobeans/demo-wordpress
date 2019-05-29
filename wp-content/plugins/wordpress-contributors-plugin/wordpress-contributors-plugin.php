@@ -14,7 +14,7 @@
  * @wordpress-plugin
  * Plugin Name:       WordPress Contributors Plugin
  * Plugin URI:        #
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       WordPress Contirbutor plugin is develop to add an additional box on add/ edit post page to add multiple authors or contributors to the post. I will enable user to select the contributors of the post from the list of authors and will show the selected contributors on the post page.
  * Version:           1.0.0
  * Author:            Pratik Raghuvanshi
  * Author URI:        #

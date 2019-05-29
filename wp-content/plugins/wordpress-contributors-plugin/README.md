@@ -1,16 +1,11 @@
 # Wordpress Contributors Plugin
-Requires at least: 5.2
-Tested up to: 5.2
-Stable tag: 5.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Wordpress Contirbutor plugin is develop to add an additional box on add/ edit post page to add multiple authors or contributors to the post.
-I will enable user to select the contributors of the post from the list of authors and will show the selected contributors on the post page. 
-
 ## Description 
 
+Wordpress Contirbutor plugin is develop to add an additional box on add/ edit post page to add multiple authors or contributors to the post.
+I will enable user to select the contributors of the post from the list of authors and will show the selected contributors on the post page.
+
 Wordpress Contirbutor plugin adds a metabox to Add/Edit post page which contains the list of authors/ contributors / editors and one can select number of contributors from the list. These selected contributor's list will be display on post page, below the post content with their gravatar and link to their page.
+
 
 **How to use:**
 
@@ -20,14 +15,13 @@ Wordpress Contirbutor plugin adds a metabox to Add/Edit post page which contains
 *   Publish or Update the post.
 *  Click on "View Post" link and scroll the page to below the content, the selected authors will be listed with their gravatars and links to their respective author page.
 
-## Demo
-You can see demo for the plugin functionality here:
+## System Requirements 
 
-[Admin demo](http://172.16.19.68/pratik/demo-wordpress/wp-admin/)
-Please use admin/admin to login to admin area.
-
-[Frontend demo](http://172.16.19.68/pratik/demo-wordpress)
-Go to the post on which you have selected the contributors.
+Requires at least: 5.2
+Tested up to: 5.2
+Stable tag: 5.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 
 ## Installation
 
@@ -42,6 +36,19 @@ Go to the post on which you have selected the contributors.
 
    1. Upload the Wordpress Contirbutor plugin folder to the plugins directory in your WordPress installation.
    2. Activate the plugin.
+   3.  Now go to Add or Edit any post, and scroll down to content box you will see a   metabox with title "Contributors" and a list of authors with checkboxes.
+   4. Select the contributors for the post from the list.
+   5.   Publish or Update the post.
+   6.  Click on "View Post" link and scroll the page to below the content, the selected authors will be listed with their gravatars and links to their respective author page.
+
+## Demo
+You can see demo for the plugin functionality here:
+
+[Admin demo](http://172.16.19.68/pratik/demo-wordpress/wp-admin/)
+Please use admin/admin to login to admin area.
+
+[Frontend demo](http://172.16.19.68/pratik/demo-wordpress)
+Go to the post on which you have selected the contributors.
 
 ## Screenshots
 
