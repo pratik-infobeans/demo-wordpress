@@ -1,8 +1,6 @@
 # Simple Alert Plugin
-Contributors: (this should be a list of wordpress.org userid's)
 Donate link: #
-Tags: comments, spam
-Requires at least: 3.0.1
+Requires at least: 5.2
 Tested up to: 5.2
 Stable tag: 5.2
 License: GPLv2 or later
