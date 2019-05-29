@@ -17,9 +17,9 @@ Wordpress Contirbutor plugin adds a metabox to Add/Edit post page which contains
 
 ## System Requirements 
 
-Requires at least: 5.2
-Tested up to: 5.2
-Stable tag: 5.2
+Compatible with wordpress 5.2 and above.
+Tested on: Wordpress 5.2
+Stable tag: Wordpress 5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 

@@ -18,7 +18,7 @@ P.S: Use ctrl+click to select multiple posts from the dropdown.
 
 ## System Requirements 
 
-Requires at least: Wordpress 5.2
+Compatible with wordpress 5.2 and above.
 Tested on: Wordpress 5.2
 Stable tag: Wordpress 5.2
 License: GPLv2 or later
