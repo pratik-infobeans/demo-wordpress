@@ -1,5 +1,4 @@
 # Simple Alert Plugin
-Donate link: #
 Requires at least: 5.2
 Tested up to: 5.2
 Stable tag: 5.2
@@ -46,6 +45,6 @@ Go to the post which you have selected from Simple Alert option.
 
 ## Screenshots
 
-1. ![Screenshot 1](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
-2. ![Alt text](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
-3. ![Alt text](http://172.16.19.68/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)
+1. ![Backend Setting Page](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%201.png)
+2. ![Backend Setting Page](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%202.png)
+3. ![Post Page](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/simple-alert-plugin/Screenshot%203.png)

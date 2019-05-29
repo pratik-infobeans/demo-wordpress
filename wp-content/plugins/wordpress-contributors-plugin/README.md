@@ -45,6 +45,6 @@ Go to the post on which you have selected the contributors.
 
 ## Screenshots
 
-1. ![Screenshot 1](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc1.png)
-2. ![Screenshot 2](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc2.png)
-3.![Screenshot 3](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc3.png)
+1. ![Add/Edit Post](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc1.png)
+2. ![Add/Edit Post](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc-2.png)
+3. ![View post](http://103.231.46.2:10188/pratik/demo-wordpress/wp-content/plugins/wordpress-contributors-plugin/Screenshot-wc-3.png)
